@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Poppins";
-  src: url(../src/fonts/Poppins/Poppins-Regular.ttf);
+  font-family: "Poppins-Bold";
+  src: url(../src/fonts/Poppins/Poppins-Bold.ttf);
 }
 
 h1 {
-  font-family: "Poppins";
+  font-family: "Poppins-Bold";
   font-weight: 700;
   font-style: normal;
   font-size: 72px;
@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Poppins";
+  font-family: "Poppins-Bold";
   font-weight: 700;
   font-style: normal;
   font-size: 56px;
@@ -22,7 +22,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Poppins";
+  font-family: "Poppins-Bold";
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
@@ -31,7 +31,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Poppins";
+  font-family: "Poppins-Bold";
   font-weight: 700;
   font-style: normal;
   font-size: 24px;
@@ -69,6 +69,15 @@ h4 {
   font-weight: 600;
   font-style: normal;
   font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.text-small {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
   line-height: 24px;
   color: #333333;
 }

@@ -104,6 +104,7 @@
   width: 81.25%;
   min-height: 480px;
   padding-top: 32px;
+  margin-bottom: 32px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -155,3 +156,78 @@
 .second-page_card-box .card p {
   text-align: center;
 }
+
+/*============================================================================== third-page */
+#third-page {
+  min-height: 768px;
+  background: #e9ccee;
+  padding-top: 144px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.third-page_image {
+  width: 40.14%;
+  max-width: 570px;
+  max-height: 512px;
+  background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
+  border-radius: 3px;
+}
+
+#third-page img {
+  width: 100%;
+  max-width: 570px;
+  max-height: 512px;
+}
+
+#third-page img:hover {
+  -o-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  -o-transform: translate(30px, -32px);
+  -ms-transform: translate(30px, -32px);
+  -moz-transform: translate(30px, -32px);
+  -webkit-transform: translate(30px, -32px);
+  transform: translate(30px, -32px);
+}
+
+.third-page_description {
+  width: 40.14%;
+}
+
+.third-page_description h2 {
+  max-width: 370px;
+  max-height: 128px;
+  margin-bottom: 23px;
+}
+
+.third-page_description .text-dark {
+  max-width: 470px;
+  max-height: 58px;
+  margin-bottom: 6px;
+}
+
+.third-page_description .text-gray {
+  max-width: 470px;
+  max-height: 76px;
+  margin-bottom: 36px;
+}
+
+.counter-block {
+  width: 100%;
+  max-width: 470px;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.counter-item {
+  width: 50%;
+  min-height: 72px;
+}
+
+.third-page_description button {
+  background: #c86dd7;
+}
+
+/*============================================================================== fourth-page */
