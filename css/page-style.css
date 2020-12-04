@@ -231,3 +231,27 @@
 }
 
 /*============================================================================== fourth-page */
+
+#fourth-page {
+  min-height: 768px;
+  background: #ffffff;
+  padding-top: 103px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fourth-page_description {
+  width: 40.14%;
+}
+
+.fourth-page_description h2 {
+  max-width: 548px;
+  max-height: 64px;
+  margin-bottom: 23px;
+}
+
+.fourth-page_description .text-dark {
+  max-width: 570px;
+  max-height: 76px;
+  margin-bottom: 54px;
+}
