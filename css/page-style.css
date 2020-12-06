@@ -9,6 +9,25 @@
   max-width: 1440px;
 }
 
+section {
+  width: 100%;
+  min-height: 768px;
+}
+
+.conteiner:nth-child(odd) {
+  background: #e9ccee;
+}
+
+.conteiner:nth-child(even) {
+  background: #ffffff;
+}
+
+.wraper {
+  width: 81.25%;
+  min-height: 480px;
+  background-color: aqua;
+}
+
 /*============================================================================== start-page */
 
 #start-page {
@@ -151,7 +170,6 @@
 }
 
 .third-page_image {
-  width: 40.14%;
   max-width: 570px;
   max-height: 512px;
   background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
@@ -159,7 +177,6 @@
 }
 
 #third-page img {
-  width: 100%;
   max-width: 570px;
   max-height: 512px;
 }
