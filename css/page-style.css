@@ -4,9 +4,17 @@
   box-sizing: border-box;
 }
 
-.conteiner {
+#conteiner {
   margin: 0 auto;
   max-width: 1440px;
+}
+
+section:nth-of-type(2n) {
+  background: #ffffff;
+}
+
+section:nth-of-type(2n + 1) {
+  background: #fdf2ff;
 }
 
 section {
@@ -14,30 +22,28 @@ section {
   min-height: 768px;
 }
 
-.conteiner:nth-child(odd) {
-  background: #e9ccee;
-}
-
-.conteiner:nth-child(even) {
-  background: #ffffff;
+#conteiner,
+section,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .wraper {
   width: 81.25%;
-  min-height: 480px;
-  background-color: aqua;
+  min-height: 300px;
+  background: none;
+  border: 1px solid aqua;
 }
 
-/*============================================================================== start-page */
-
+/* <!-- start-page -------------------------------------------------------- >  */
 #start-page {
-  width: 100%;
-  min-height: 768px;
-  padding-bottom: 34px;
   background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
 }
 
 .header {
+  width: 100%;
   max-height: 80px;
   margin-bottom: 156px;
   padding: 17px 0px 15px 9.375%;
@@ -56,7 +62,6 @@ section {
   max-width: 449px;
   min-height: 216px;
   margin-bottom: 26px;
-  padding-left: 9.375%;
 }
 
 .start-page_description {
@@ -64,7 +69,6 @@ section {
   max-width: 705px;
   min-height: 48px;
   margin-bottom: 34px;
-  padding-left: 9.375%;
 }
 
 .start-page_description p {
@@ -88,167 +92,18 @@ section {
 .button:hover {
   opacity: 1;
 }
-
-/*============================================================================== second-page */
-
-#second-page {
-  min-height: 768px;
-  background: #ffffff;
-  padding-top: 55px;
-  display: flex;
-  flex-direction: column;
-}
-
-.second-page_title {
+/* <!-- second-page -------------------------------------------------------- >  */
+/* <!-- third-page -------------------------------------------------------- >  */
+/* <!-- fourth-page -------------------------------------------------------- >  */
+/* <!-- fifth-page -------------------------------------------------------- >  */
+/* <!-- sixth-page -------------------------------------------------------- >  */
+/* <!-- seventh-page -------------------------------------------------------- >  */
+/* <!-- eighth-page -------------------------------------------------------- >  */
+/* <!-- ninth-page -------------------------------------------------------- >  */
+/* <!-- tenth-page -------------------------------------------------------- >  */
+/* <!-- footer -------------------------------------------------------- >  */
+.footer {
   width: 100%;
-  min-height: 64px;
-  text-align: center;
-  margin-bottom: 23px;
-}
-
-.second-page_description {
-  width: 100%;
-  min-height: 50px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 32px;
-}
-
-.second-page_description p {
-  width: 570px;
-  text-align: center;
-}
-
-.second-page_card-box {
-  width: 81.25%;
-  min-height: 480px;
-  padding-top: 32px;
-  margin-bottom: 32px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-self: center;
-}
-
-.second-page_card-box .card {
-  width: 370px;
-  height: 224px;
-  margin-bottom: 32px;
-  padding-top: 40px;
-  padding-bottom: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #ffffff;
-  box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
-  border-radius: 3px;
-}
-
-.second-page_card-box .card img {
-  width: 56px;
-  height: 56px;
-  margin-bottom: 11px;
-}
-
-.second-page_card-box .card h4 {
-  margin-bottom: 9px;
-  text-align: center;
-}
-
-.second-page_card-box .card p {
-  text-align: center;
-}
-
-/*============================================================================== third-page */
-#third-page {
-  min-height: 768px;
-  background: #e9ccee;
-  padding-top: 144px;
-  padding-left: 135px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.third-page_image {
-  max-width: 570px;
-  max-height: 512px;
-  background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
-  border-radius: 3px;
-}
-
-#third-page img {
-  max-width: 570px;
-  max-height: 512px;
-}
-
-.third-page_description {
-  width: 40.14%;
-}
-
-.third-page_description h2 {
-  max-width: 370px;
-  max-height: 128px;
-  margin-bottom: 23px;
-}
-
-.third-page_description .text-dark {
-  max-width: 470px;
-  max-height: 58px;
-  margin-bottom: 6px;
-}
-
-.third-page_description .text-gray {
-  max-width: 470px;
-  max-height: 76px;
-  margin-bottom: 36px;
-}
-
-.counter-block {
-  width: 100%;
-  max-width: 470px;
-  margin-bottom: 40px;
-  display: flex;
-}
-
-.counter-item {
-  width: 50%;
-  min-height: 72px;
-}
-
-.third-page_description button {
-  background: #c86dd7;
-}
-
-/*============================================================================== fourth-page */
-
-#fourth-page {
-  min-height: 768px;
-  background: #ffffff;
-  display: flex;
-}
-
-.fourth-page_description {
-  width: 50%;
-  padding-top: 103px;
-  padding-left: 135px;
-}
-
-.fourth-page_description h2 {
-  width: 100%;
-  max-width: 548px;
-  min-height: 64px;
-  margin-bottom: 23px;
-}
-
-.fourth-page_description .text-dark {
-  max-width: 570px;
-  max-height: 76px;
-  margin-bottom: 54px;
-}
-
-.fourth-page_img {
-  width: 50%;
-  max-width: 720px;
-  display: flex;
-  justify-content: center;
+  min-height: 335px;
+  border: 5px solid red;
 }
