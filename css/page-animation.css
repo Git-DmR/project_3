@@ -1,17 +1,17 @@
-/*============================================================================== second-page */
-.second-page_card-box .card:hover {
+/* <!== second-page ========================================================= >  */
+.second-page_content .card:hover {
   transform: scale(1.15) translateZ(0);
   background-color: #e9ccee;
 }
 
-.second-page_card-box .card img {
+.second-page_content .card img {
   -o-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
-.second-page_card-box .card img:hover {
+.second-page_content .card img:hover {
   -o-transform: rotate(720deg);
   -ms-transform: rotate(720deg);
   -moz-transform: rotate(720deg);
@@ -19,7 +19,7 @@
   transform: rotate(720deg);
 }
 
-/*============================================================================== third-page */
+/* <!== third-page ========================================================= >  */
 
 #third-page img:hover {
   -o-transition: all 1s linear;
