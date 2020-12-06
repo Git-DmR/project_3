@@ -32,3 +32,10 @@
   -webkit-transform: translate(30px, -32px);
   transform: translate(30px, -32px);
 }
+
+/* <!== fourth-page ========================================================= >  */
+
+.fourth-page_content .card:hover {
+  box-shadow: 16px 16px 48px rgba(150, 41, 141, 0.439);
+  background: #fdf2ff;
+}
