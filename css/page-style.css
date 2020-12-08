@@ -580,8 +580,61 @@ footer {
   background: #c86dd7;
 }
 
-/* <!-- ninth-page -------------------------------------------------------- >  */
-/* <!== second-page ========================================================= >  */
+/* <!== ninth-page ========================================================= >  */
+
+#ninth-page {
+  padding-top: 63px;
+}
+
+#ninth-page h2 {
+  width: 317px;
+  height: 64px;
+  margin-bottom: 57px;
+}
+
+.ninth-page_content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ninth-page_content .card {
+  width: 370px;
+  height: 496px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+
+.card-description {
+  padding-left: 32px;
+}
+
+.ninth-page_content .card img {
+  width: 370px;
+  height: 240px;
+  margin-bottom: 32px;
+}
+
+.ninth-page_content .card span {
+  width: 72px;
+  height: 24px;
+  margin-bottom: 13px;
+}
+
+.ninth-page_content .card h4 {
+  width: 252px;
+  height: 64px;
+  margin-bottom: 25px;
+}
+
+.ninth-page_content .card p {
+  width: 306px;
+  height: 48px;
+}
+
 /* <!-- tenth-page -------------------------------------------------------- >  */
 /* <!== second-page ========================================================= >  */
 /* <!-- footer -------------------------------------------------------- >  */
