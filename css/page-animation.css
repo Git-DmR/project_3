@@ -46,3 +46,9 @@
   color: #fdf2ff;
   background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
 }
+
+/* <!== fifth-page ========================================================= >  */
+.sixth-page_card-block .card:hover {
+  color: #fdf2ff;
+  background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
+}

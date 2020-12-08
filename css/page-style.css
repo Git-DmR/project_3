@@ -387,6 +387,36 @@ footer {
   width: 570px;
   text-align: center;
 }
+
+.sixth-page_card-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sixth-page_card-block .card {
+  width: 570px;
+  height: 368px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.101959);
+  border-radius: 3px;
+}
+
+.sixth-page_card-block .card-foto {
+  width: 124px;
+  height: 124px;
+}
+
+.sixth-page_card-block .card-description {
+  width: 506px;
+  height: 74px;
+  text-align: center;
+}
 /* <!-- seventh-page -------------------------------------------------------- >  */
 /* <!-- eighth-page -------------------------------------------------------- >  */
 
