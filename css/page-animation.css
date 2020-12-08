@@ -39,3 +39,10 @@
   box-shadow: 16px 16px 48px rgba(150, 41, 141, 0.439);
   background: #fdf2ff;
 }
+
+/* <!== fifth-page ========================================================= >  */
+
+.fifth-page_card-block .card:hover {
+  color: #fdf2ff;
+  background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
+}

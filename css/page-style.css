@@ -329,6 +329,39 @@ footer {
   text-align: center;
 }
 
+.fifth-page_card-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.fifth-page_card-block .card {
+  width: 370px;
+  height: 416px;
+  padding-top: 53px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+  border-radius: 3px;
+}
+
+.card-name {
+  margin-bottom: 7px;
+}
+
+.card-prise {
+  margin-bottom: 26px;
+}
+
+.card-description {
+  margin-bottom: 34px;
+}
+
+.card-description li {
+  margin-bottom: 8px;
+}
+
 /* <!-- sixth-page -------------------------------------------------------- >  */
 
 #sixth-page {
