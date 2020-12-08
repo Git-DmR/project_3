@@ -47,8 +47,21 @@
   background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
 }
 
-/* <!== fifth-page ========================================================= >  */
+/* <!== sixth-page ========================================================= >  */
 .sixth-page_card-block .card:hover {
   color: #fdf2ff;
   background: linear-gradient(224.72deg, #3023ae -1%, #c86dd7 100.5%);
+}
+
+/* <!== eighth-page ========================================================= >  */
+#eighth-page img:hover {
+  -o-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  -o-transform: translate(30px, -32px);
+  -ms-transform: translate(30px, -32px);
+  -moz-transform: translate(30px, -32px);
+  -webkit-transform: translate(30px, -32px);
+  transform: translate(30px, -32px);
 }
