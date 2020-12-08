@@ -81,3 +81,13 @@ h4 {
   line-height: 24px;
   color: #333333;
 }
+
+.label {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #333333;
+  text-transform: uppercase;
+}

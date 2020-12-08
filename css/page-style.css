@@ -635,10 +635,94 @@ footer {
   height: 48px;
 }
 
-/* <!-- tenth-page -------------------------------------------------------- >  */
-/* <!== second-page ========================================================= >  */
-/* <!-- footer -------------------------------------------------------- >  */
-/* <!== second-page ========================================================= >  */
+/* <!== tenth-page ========================================================= >  */
+#tenth-page {
+  padding-top: 103px;
+}
+
+#tenth-page .wraper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tenth-page_description {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.tenth-page_description h2 {
+  width: 387px;
+  height: 64px;
+  margin-bottom: 39px;
+}
+
+.tenth-page_description .content {
+  width: 470px;
+  height: 96px;
+  margin-bottom: 23px;
+}
+
+.tenth-page_description h4 {
+  width: 142px;
+  height: 32px;
+  margin-bottom: 25px;
+}
+
+.tenth-page_description p {
+  width: 470px;
+  height: 48px;
+  margin-bottom: 39px;
+}
+
+.form {
+  width: 570px;
+  height: 560px;
+  padding-top: 37px;
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background: #ffffff;
+  box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.0994678);
+  border-radius: 3px;
+}
+
+.form h4 {
+  width: 226px;
+  height: 32px;
+  margin-bottom: 31px;
+}
+
+.form .label {
+  width: 82px;
+  height: 16px;
+  margin-bottom: 13px;
+}
+
+.form input {
+  width: 506px;
+  height: 48px;
+  margin-bottom: 20px;
+  padding-left: 16px;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.form .text-area {
+  height: 112px;
+}
+
+.form .button {
+  width: 506px;
+  background: #c86dd7;
+}
+/* <!== footer ========================================================= >  */
+
 .footer {
   width: 100%;
   min-height: 335px;
